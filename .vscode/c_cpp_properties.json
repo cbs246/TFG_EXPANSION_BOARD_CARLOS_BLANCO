@@ -1,0 +1,112 @@
+{
+    "env": {
+        "MatrixMCUWorkspaceFolder": "${workspaceFolder}/../.."
+    },
+    "configurations": [
+        {
+            "name": "win32-native",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/native/**"
+            ],
+            "defines": [],
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "win32-stm32f4",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/drivers/stm32f4xx/**",
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/stm32f4/**"
+            ],
+            "defines": [
+                "STM32F446xx"
+            ],
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        },
+        {
+            "name": "linux-native",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/native/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "linux-stm32f446re",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/drivers/stm32f4xx/**",
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/stm32f4/**"
+            ],
+            "defines": [
+                "STM32F446xx"
+            ],
+            "compilerPath": "/opt/MatrixMCU/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        },
+        {
+            "name": "macos-native",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/native/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-x64"
+        },
+        {
+            "name": "macos-stm32f446re-intel",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/drivers/stm32f4xx/**",
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/stm32f4/**"
+            ],
+            "defines": [
+                "STM32F446xx"
+            ],
+            "compilerPath": "/opt/local/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-arm"
+        },
+        {
+            "name": "macos-stm32f446re-silicon",
+            "includePath": [
+                "${MatrixMCUWorkspaceFolder}/drivers/stm32f4xx/**",
+                "${MatrixMCUWorkspaceFolder}/lib/*/**",
+                "${workspaceFolder}/common/**",
+                "${workspaceFolder}/port/stm32f4/**"
+            ],
+            "defines": [
+                "STM32F446xx"
+            ],
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-arm"
+        }
+    ],
+    "version": 4
+}
