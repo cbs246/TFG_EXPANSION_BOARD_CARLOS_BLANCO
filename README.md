@@ -17,7 +17,6 @@ Its main function is to print the pressed keys located at the board's body on th
 
 **Demonstration video**
 
-
-```markdown
-[![Click para ir al vídeo]](https://youtu.be/GKOu6acFRMo)
-```
+<a href="https://youtu.be/T3L4lqAXPEM" target="_blank">
+  <img src="https://img.youtube.com/vi/T3L4lqAXPEM/0.jpg" alt="Click para ir al vídeo" width="400" />
+</a>

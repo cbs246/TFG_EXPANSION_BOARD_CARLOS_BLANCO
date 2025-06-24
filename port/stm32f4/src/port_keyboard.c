@@ -166,34 +166,6 @@ void port_keyboard_result(void){
     char key = 0;                   // Value of the key
      uint8_t row = 0;               // Value of the row pressed
 
-    // port_column_toggle(1);
-    //     row = port_get_rows();
-    //     if(row != 0){
-    //         currentKey = 1;              
-    //         key = map_key(row, 1);
-    //     }
-
-    // port_column_toggle(2);
-    //     row = port_get_rows();
-    //     if(row != 0){
-    //         currentKey = 1;              
-    //         key = map_key(row, 2);
-    //     }
-
-    // port_column_toggle(4);
-    //     row = port_get_rows();
-    //     if(row != 0){
-    //         currentKey = 1;              
-    //         key = map_key(row, 4);
-    //     }
-
-    // port_column_toggle(3);
-    //     row = port_get_rows();
-    //     if(row != 0){
-    //         currentKey = 1;              
-    //         key = map_key(row, 3);
-    //     }
-
     // Scan for active rows
     for(uint8_t column = 1; column <= 4; ++column){
         port_column_toggle(column);
